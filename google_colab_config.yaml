@@ -1,0 +1,9 @@
+
+path: /content/gdrive/MyDrive/Colab Notebooks/UCC/ucc # dataset root dir
+train: challenge phase/images/train  # train images (relative to 'path')
+val: challenge phase/images/val # val images (relative to 'path')
+
+# Classes
+nc: 1
+names:
+  - 'high vegetation'
